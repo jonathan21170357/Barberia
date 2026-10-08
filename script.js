@@ -1,5 +1,5 @@
 // ==========================================================================
-// JAVASCRIPT INTERACTIVITY FILE - EL GALPÓN BARBERSHOP
+// JAVASCRIPT INTERACTIVITY FILE - EL GALPÓN BARBERSHOP (ENGLISH VERSION)
 // ==========================================================================
 
 document.addEventListener("DOMContentLoaded", () => {

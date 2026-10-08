@@ -3,15 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Nota: Como este archivo estará dentro de una carpeta /english/, 
-             si tus estilos están en la raíz, recuerda ajustar la ruta a "../styles.css" si es necesario -->
-        <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="styles.css" />
         <title>El Galpón Barbershop - Haircut, Beard & Style</title>
         <meta
             name="description"
             content="Traditional barbershop and men's styling. Book your appointment for classic haircuts, beard shaping, and facial treatments."
         />
-        <link rel="icon" href="../Imagenes/logo.jpg" type="image/jpg" />
+        <link rel="icon" href="Imagenes/logo.jpg" type="image/jpg" />
     </head>
 
     <body class="page__body">
@@ -20,7 +18,7 @@
             <div class="header__container">
                 <img
                     class="header__logo"
-                    src="../Imagenes/logo.jpg"
+                    src="Imagenes/logo.jpg"
                     alt="El Galpón Barbershop Logo"
                     width="120"
                     height="60"
@@ -35,6 +33,8 @@
                         <li class="navbar__item"><a href="#galeria" class="navbar__link">Gallery</a></li>
                         <li class="navbar__item"><a href="#ubicacion" class="navbar__link">Location & Hours</a></li>
                         <li class="navbar__item"><a href="#citas" class="navbar__link">Book Appointment</a></li>
+                        <!-- Enlace para cambiar rápidamente a la versión en español -->
+                        <li class="navbar__item"><a href="index.html" class="navbar__link" style="color: var(--color-gold, #d4af37);">Español</a></li>
                     </ul>
                 </nav>
             </div>
@@ -53,7 +53,7 @@
                 </div>
                 <img
                     class="hero__bg-img"
-                    src="../Imagenes/banner.jpg"
+                    src="Imagenes/banner.jpg"
                     alt="Vintage barber chair in an illuminated environment"
                 />
             </section>
@@ -94,15 +94,15 @@
                 <h2 id="gallery-title" class="gallery__title">Work Gallery</h2>
                 <div class="gallery__grid">
                     <figure class="gallery__item">
-                        <img src="../Imagenes/corte-fade.jpg" alt="Structured Skin Fade haircut" loading="lazy" />
+                        <img src="Imagenes/corte-fade.jpg" alt="Structured Skin Fade haircut" loading="lazy" />
                         <figcaption class="gallery__caption">Structured Fade</figcaption>
                     </figure>
                     <figure class="gallery__item">
-                        <img src="../Imagenes/barba-perfilada.jpg" alt="Symmetrical beard shaping" loading="lazy" />
+                        <img src="Imagenes/barba-perfilada.jpg" alt="Symmetrical beard shaping" loading="lazy" />
                         <figcaption class="gallery__caption">Razor Shave Shaping</figcaption>
                     </figure>
                     <figure class="gallery__item">
-                        <img src="../Imagenes/corte-clasico.jpg" alt="Classic pompadour hairstyle" loading="lazy" />
+                        <img src="Imagenes/corte-clasico.jpg" alt="Classic pompadour hairstyle" loading="lazy" />
                         <figcaption class="gallery__caption">Classic Pompadour Style</figcaption>
                     </figure>
                 </div>
@@ -206,6 +206,6 @@
         </footer>
 
         <!-- LOCAL JAVASCRIPT INCLUSION -->
-        <script src="../script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
